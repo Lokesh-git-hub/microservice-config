@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version : "1.0"
+
+accounts:
+  message: "Welcome to LokeshIndustries accounts related PROD APIs "
+  contactDetails:
+    name: "Hema - PROD Lead"
+    email: "hema@lokeshindustries.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
